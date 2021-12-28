@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project1/24.ShadowingInheritedStateVariables.solsol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project1/24.ShadowingInheritedStateVariables.solsol": {
+			"keccak256": "0x6e7480239c35a172abf095e15d97fe9b35afb7d7e9b8be20ef8a4fb4187dff9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f0bdd5a392296322c4a347c16348ac077230953ce0b53ee849cb86a687b9884",
+				"dweb:/ipfs/QmTxm6yxE8U4ujAuY8G9Mq7qpKeZzTubXxp92kMnzcgMss"
+			]
+		}
+	},
+	"version": 1
+}
