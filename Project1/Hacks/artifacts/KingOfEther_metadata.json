@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "claimThrone",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "king",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/07.DenialofService.sol": "KingOfEther"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/07.DenialofService.sol": {
+			"keccak256": "0xa274f8988832d416c5f814aa2e980fa55a1ea8f509bf65fef75fa42082386d60",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://614ae12ee96508fbd41838e0bdf5348f88e915d25fe4f8d8967d532290d28c4a",
+				"dweb:/ipfs/QmWm67QDqL4p7aqsRKfKGgZZ4Bso3Rj9v4nPoNiyj1PbyC"
+			]
+		}
+	},
+	"version": 1
+}

@@ -169,7 +169,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project1/40VerifyingSignature.sol": "VerifySignature"
+			"localhost/Project1/40VerifyingSignature.sol": "VerifySignature"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -183,7 +183,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project1/40VerifyingSignature.sol": {
+		"localhost/Project1/40VerifyingSignature.sol": {
 			"keccak256": "0x77842428227fc63cbc3a791031a853b6e6a6cf697c9a58297ab12c051b8ecd49",
 			"license": "MIT",
 			"urls": [

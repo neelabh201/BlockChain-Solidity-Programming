@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Bank",
+						"name": "_bank",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/10.Honeypot.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/10.Honeypot.sol": {
+			"keccak256": "0x9c36090a63fbd50e9f47a2fa17edfb883710165979f34f794af9b023ffaf40f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b78cee318e43623e6560399a8fa9dfc2e7e4f86d0e9223bbdd9f408dd4190ec6",
+				"dweb:/ipfs/QmVwv5PpCwBVYLttif5WBEJap9nxYRNxvzE1R43MfkM6X8"
+			]
+		}
+	},
+	"version": 1
+}

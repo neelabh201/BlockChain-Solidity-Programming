@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DeFi/04.ChainlinkPriceOracle.sol": "ChainlinkPriceOracle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DeFi/04.ChainlinkPriceOracle.sol": {
+			"keccak256": "0x7f2191c69d18173e8e870478e7d264e27067e969055b0e7d058b0684280a565b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e5b8e606727486bc8f59e83907af1cba66f0d3e8702706216d22e6f63c84540",
+				"dweb:/ipfs/QmTYjkc74k7rKPtKxrRwYfwDnpbnL1vY8SxzBd6mThQjLa"
+			]
+		}
+	},
+	"version": 1
+}

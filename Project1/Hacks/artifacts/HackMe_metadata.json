@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Lib",
+						"name": "_lib",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "lib",
+				"outputs": [
+					{
+						"internalType": "contract Lib",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/05.Delegatecall.sol": "HackMe"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/05.Delegatecall.sol": {
+			"keccak256": "0xfe0c8e9424c02a3d82363a5e82117db2d1865d45445462f2af993fa218188116",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d2dfcbc0850661a577a465d479d08812b10a722e77161fd0439a235fcc929392",
+				"dweb:/ipfs/QmRoqoee2gykYDXp7hgRUTMPFzvXJPvvBTMgWwU9Q2wqUq"
+			]
+		}
+	},
+	"version": 1
+}

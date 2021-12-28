@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/09.HidingMaliciousCodewithExternalContract.sol": "Mal"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/09.HidingMaliciousCodewithExternalContract.sol": {
+			"keccak256": "0x8fdb67a88084442b6eb3d1845ac7c61e24bca0de8cd870f93be8febf60fea7dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e1a582d18c33d5078ee909b1b4f5b9b7aee3494dcc21e0c06c21860cd3e330b",
+				"dweb:/ipfs/QmcjEGaYrdDs8uC3r3yHKxczs4Zsq7w7GXELt9JqqpUKmn"
+			]
+		}
+	},
+	"version": 1
+}

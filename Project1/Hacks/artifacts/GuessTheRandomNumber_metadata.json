@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_guess",
+						"type": "uint256"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/06SourceofRandomness..sol": "GuessTheRandomNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/06SourceofRandomness..sol": {
+			"keccak256": "0x9b4a4060b2221874fc444c5577c4d1a5bd5c9dc9310843c625ab2450e88b717f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afdf602cebdaa63d7c63f0ff0aefab7c14b50a460fe8d2afe5a24e2e1c94be01",
+				"dweb:/ipfs/QmYrGbF9zERBfUEnNK8GDPKo7mREPpRZVnLkmdXMTYzCwt"
+			]
+		}
+	},
+	"version": 1
+}

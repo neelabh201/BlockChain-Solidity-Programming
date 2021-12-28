@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountB",
+						"type": "uint256"
+					}
+				],
+				"name": "addLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					}
+				],
+				"name": "removeLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DeFi/02.UniswapV2AddRemoveLiquidity.sol": "TestUniswapLiquidity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DeFi/02.UniswapV2AddRemoveLiquidity.sol": {
+			"keccak256": "0xd5ed65d3af2c8a714049abaf38760b1e311bd2ce7abafc2d40e79669f969c934",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9de109465bc45f5fa7188ec2d75c6d7b01ce7ba874d5b41ee87159a8b231625f",
+				"dweb:/ipfs/QmeX11egqEwncXWf7M49W2n966rspXmLbauH9xB45eyy3Z"
+			]
+		}
+	},
+	"version": 1
+}
