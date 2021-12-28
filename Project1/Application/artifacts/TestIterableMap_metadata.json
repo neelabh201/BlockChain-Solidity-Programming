@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testIterableMap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Application/04.IterableMapping.sol": "TestIterableMap"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Application/04.IterableMapping.sol": {
+			"keccak256": "0xc2e5eac5cc980e6e449069408b82f51286a3bc6c0db5e3560b7337a55df9d175",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://73f6ddde89496987a346995b98f964df23f5da305bfab7a9058d09efb01f762a",
+				"dweb:/ipfs/QmTUd3wKxmppMJw8BhCnV4BwY2ZwCFUBdjjswbDookczQJ"
+			]
+		}
+	},
+	"version": 1
+}

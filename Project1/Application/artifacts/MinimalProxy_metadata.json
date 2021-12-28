@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "clone",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "result",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Application/08.MinimalProxyContract.sol": "MinimalProxy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Application/08.MinimalProxyContract.sol": {
+			"keccak256": "0x358faa0fe0f915c9160b2f19e8631527971f753d5bdac9606f46ca5e8a8b0296",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://41a9fe789b30f4e61604cd1a4bca928cb64e80bf9df660aa4e413cb2bd76a880",
+				"dweb:/ipfs/Qmaay2rqwwf5M7qL5nd9mnn7zM71Wjc86njMRTi3QLzpXz"
+			]
+		}
+	},
+	"version": 1
+}
