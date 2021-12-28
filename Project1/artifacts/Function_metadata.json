@@ -166,7 +166,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project1/Function.sol": "Function"
+			"Project1/17.Function.sol": "Function"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -180,7 +180,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project1/Function.sol": {
+		"Project1/17.Function.sol": {
 			"keccak256": "0x6d62ee7bf71b160695b7ab2770a0bdc356d473d196ef05bca27ad1191d587ce5",
 			"license": "MIT",
 			"urls": [
